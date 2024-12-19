@@ -1,0 +1,16 @@
+{
+  "name": "pratique6_less",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler ./source ./build main.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "less": "^4.2.1",
+    "less-watch-compile": "^2.1.0"
+  }
+}

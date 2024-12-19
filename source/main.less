@@ -1,0 +1,65 @@
+@import 'config.less';
+@import 'mapa.less';
+@import 'variaveis.less';
+
+@breakpointMobile: ~"(max-width:767px)";
+@breakpointTablet: ~"(min-width: 768px) and (max-width:1023px)";
+
+h1{
+    text-align: center;
+}
+
+
+#cor-fundo{
+    background-color: #colors[secundaria];
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    height: 100 vh;
+}
+
+
+.tamanho-quadrado {
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.q0 {
+    background-color: @cor-vermelha; 
+}
+.q1 {
+    
+    background-color: @cor-verde; 
+}
+
+.q2 {
+    
+    background-color: @cor-azul; 
+}
+
+.q3 {
+    
+    background-color: @cor-preto; 
+}
+
+.q4 {
+    
+    background-color: @cor-branca; 
+}
+
+body{
+
+    
+    @media @breakpointMobile{
+        max-width: 70%;
+        background-color: yellow;
+    }
+    
+    @media @breakpointTablet{
+        max-width: 80%;
+        background-color: #555;
+    }
+}
